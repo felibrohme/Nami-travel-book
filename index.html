@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lo que empezó desde cero — Para Nami</title>
+<meta name="description" content="Un recuerdo de nuestro viaje al sur.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0b0b;--paper:#e9e4da;--muted:#aaa79e;--line:#2a2c2b;--accent:#d7c6a2;--max:1320px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--paper);font-family:"DM Sans",Arial,sans-serif}body:after{content:"";position:fixed;inset:0;pointer-events:none;opacity:.035;background-image:radial-gradient(#fff .55px,transparent .55px);background-size:5px 5px;z-index:100}
+a{color:inherit;text-decoration:none}.hero{height:100svh;min-height:650px;position:relative;display:grid;place-items:center;overflow:hidden}.hero-bg{position:absolute;inset:-2%;background-position:center;background-size:cover;filter:saturate(.7);transform:scale(1.03)}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,.82));z-index:1}.hero-content{position:relative;z-index:2;width:min(1000px,90vw);text-align:center}.eyebrow,.chapter-label,.chapter-number{font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:var(--accent)}h1,h2,.display{font-family:"Playfair Display",Georgia,serif;font-weight:400}.hero h1{font-size:clamp(60px,11vw,150px);line-height:.88;margin:25px 0}.hero .subtitle{max-width:720px;margin:auto;color:#d8d3ca;font-size:clamp(17px,2vw,22px);line-height:1.6}.scroll{position:absolute;z-index:2;bottom:28px;left:50%;transform:translateX(-50%);font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:#b9b5ad}.scroll span{display:block;text-align:center;font-size:18px;margin-top:8px}.intro{max-width:900px;margin:auto;padding:145px 30px 130px}.intro .lead{font-family:"Playfair Display",Georgia,serif;font-size:clamp(30px,4.3vw,58px);line-height:1.15;margin:0 0 40px}.bodycopy{white-space:pre-line;color:#bdb9b1;font-size:18px;line-height:1.9;max-width:760px}.intro .bodycopy{margin:auto}.chapter{border-top:1px solid var(--line);padding:130px 30px 160px}.chapter-inner{max-width:var(--max);margin:auto}.chapter-head{text-align:center;max-width:850px;margin:0 auto 75px}.chapter-number{display:inline-block;margin-bottom:14px;color:#777}.chapter h2{font-size:clamp(48px,7vw,92px);line-height:.95;margin:0 0 30px}.chapter-head p{white-space:pre-line;color:var(--muted);font-size:18px;line-height:1.8;max-width:730px;margin:auto}.gallery{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;align-items:start}.item{overflow:hidden;background:#121414;cursor:pointer}.item img,.item video{display:block;width:100%;height:auto;max-height:800px;object-fit:cover}.item:nth-child(1){grid-column:span 7}.item:nth-child(2){grid-column:span 5;margin-top:70px}.item:nth-child(3){grid-column:span 5;margin-left:10%}.item:nth-child(4){grid-column:span 7;margin-top:50px}.item:nth-child(n+5){grid-column:span 4}.item:hover img{transform:scale(1.025)}.item img{transition:transform .7s ease}.cinematic .item:nth-child(1){grid-column:1/-1}.cinematic .item:nth-child(1) img{max-height:88vh;object-fit:cover}.cinematic .item:nth-child(2),.cinematic .item:nth-child(3){grid-column:span 6}.cinematic .item:nth-child(4){grid-column:span 8}.cinematic .item:nth-child(5){grid-column:span 4}.interlude{min-height:70vh;display:grid;place-items:center;padding:80px 30px;background:#101211;border-top:1px solid var(--line);border-bottom:1px solid var(--line);text-align:center}.interlude p{font-family:"Playfair Display",Georgia,serif;font-size:clamp(35px,5.5vw,78px);line-height:1.08;max-width:950px;margin:0}.video-block{margin-top:65px}.video-label{text-align:center;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#777;margin-bottom:20px}.video-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.video-grid .item{cursor:default}.final{min-height:100svh;display:grid;place-items:center;padding:100px 30px;text-align:center;position:relative;overflow:hidden}.final:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at center,rgba(255,255,255,.045),transparent 55%)}.final-inner{position:relative;max-width:900px}.final h2{font-size:clamp(62px,10vw,125px);line-height:.9;margin:20px 0 40px}.final .bodycopy{margin:auto;font-size:19px}.signature{font-family:"Playfair Display",Georgia,serif;white-space:pre-line;font-size:clamp(23px,3vw,34px);line-height:1.5;margin-top:65px}.heart{font-size:26px;color:var(--accent);margin-top:45px}.progress{position:fixed;top:0;left:0;height:2px;background:var(--accent);z-index:200;width:0}.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.94);z-index:300;display:none;place-items:center;padding:30px}.lightbox.open{display:grid}.lightbox img,.lightbox video{max-width:94vw;max-height:90vh}.close{position:fixed;right:25px;top:18px;font-size:35px;font-weight:300;color:#ddd;cursor:pointer}.reveal{opacity:0;transform:translateY(35px);transition:opacity .9s ease,transform .9s ease}.reveal.visible{opacity:1;transform:none}@media(max-width:800px){.chapter{padding:95px 16px 110px}.gallery,.video-grid{display:block}.item,.item:nth-child(n){display:block;margin:0 0 12px!important}.item img,.item video{max-height:none}.intro{padding:100px 22px}.hero h1{font-size:17vw}.chapter h2{font-size:15vw}.chapter-head p{font-size:16px}.bodycopy{font-size:16px}.interlude{min-height:60vh}}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<header class="hero">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-content">
+    <div class="eyebrow" id="heroEyebrow"></div>
+    <h1 id="heroTitle"></h1>
+    <p class="subtitle" id="heroSubtitle"></p>
+  </div>
+  <div class="scroll">seguir bajando<span>↓</span></div>
+</header>
+
+<main id="app"></main>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="close" id="closeLightbox" aria-label="Cerrar">×</button>
+  <div id="lightboxContent"></div>
+</div>
+
+<script src="data.js"></script>
+<script>
+const app=document.getElementById('app');
+const mediaRoot='media/';
+const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+const path=s=>mediaRoot+s.split('/').map(encodeURIComponent).join('/');
+
+document.getElementById('heroEyebrow').textContent=viaje.portada.etiqueta;
+document.getElementById('heroTitle').textContent=viaje.portada.titulo;
+document.getElementById('heroSubtitle').textContent=viaje.portada.subtitulo;
+document.getElementById('heroBg').style.backgroundImage=`url("${path(viaje.portada.fondo)}")`;
+
+function item(file, video=false){
+  if(video) return `<div class="item video-item"><video src="${path(file)}" controls playsinline preload="metadata"></video></div>`;
+  return `<div class="item photo-item" data-src="${path(file)}"><img src="${path(file)}" loading="lazy" alt="Recuerdo del viaje"></div>`;
+}
+function chapter(c){
+  const pics=(c.fotos||[]).map(f=>item(f,false)).join('');
+  const vids=(c.videos||[]).map(f=>item(f,true)).join('');
+  return `<section class="chapter reveal ${c.layout||''}" id="${esc(c.id)}"><div class="chapter-inner"><div class="chapter-head"><div class="chapter-number">${esc(c.numero)}</div><div class="chapter-label">${esc(c.etiqueta)}</div><h2>${esc(c.titulo)}</h2><p>${esc(c.texto)}</p></div><div class="gallery">${pics}</div>${vids?`<div class="video-block"><div class="video-label">Momentos en movimiento</div><div class="video-grid">${vids}</div></div>`:''}</div></section>`;
+}
+
+let html=`<section class="intro reveal"><p class="lead">${esc(viaje.introduccion.titulo)}</p><p class="bodycopy">${esc(viaje.introduccion.texto)}</p></section>`;
+viaje.capitulos.forEach((c,i)=>{
+  html+=chapter(c);
+  if(i===1) html+=`<section class="interlude reveal"><p>Y después empezó la parte que más nos gusta:<br><em>salir a descubrir qué había del otro lado.</em></p></section>`;
+  if(i===4) html+=`<section class="interlude reveal"><p>Yo con la hernia que no podia ni caminar, vos con tu espalda y condicion física deplorable... \n\n<em>Ese día nos chupó todo un huevo y metimos 4 horas de tekking.</em></p></section>`;
+});
+html+=`<section class="final reveal"><div class="final-inner"><div class="chapter-label">${esc(viaje.final.etiqueta)}</div><h2>${esc(viaje.final.titulo)}</h2><p class="bodycopy">${esc(viaje.final.texto)}</p><div class="signature">${esc(viaje.final.firma)}</div><div class="heart">♡</div></div></section>`;
+app.innerHTML=html;
+
+const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target)}}),{threshold:.08});
+document.querySelectorAll('.reveal').forEach(x=>obs.observe(x));
+
+const lightbox=document.getElementById('lightbox'), content=document.getElementById('lightboxContent');
+document.querySelectorAll('.photo-item').forEach(el=>el.addEventListener('click',()=>{content.innerHTML=`<img src="${el.dataset.src}" alt="">`;lightbox.classList.add('open');lightbox.setAttribute('aria-hidden','false')}));
+function close(){lightbox.classList.remove('open');lightbox.setAttribute('aria-hidden','true');content.innerHTML=''}
+document.getElementById('closeLightbox').addEventListener('click',close);lightbox.addEventListener('click',e=>{if(e.target===lightbox)close()});document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
+window.addEventListener('scroll',()=>{const h=document.documentElement.scrollHeight-innerHeight;document.getElementById('progress').style.width=(scrollY/h*100)+'%'});
+</script>
+</body>
+</html>
