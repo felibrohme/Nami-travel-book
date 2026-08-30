@@ -45,7 +45,7 @@ const viaje = {
         "Vistas/IMG-18.jpg",
         "Vistas/IMG-19.jpg",
         "Vistas/IMG-20.jpg",
-        "Vistas/IMG-Portada.jpg"
+        "Vistas/Portada.jpg"
       ]
     },
     {
