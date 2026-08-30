@@ -59,7 +59,7 @@ let html=`<section class="intro reveal"><p class="lead">${esc(viaje.introduccion
 viaje.capitulos.forEach((c,i)=>{
   html+=chapter(c);
   if(i===1) html+=`<section class="interlude reveal"><p>Y después empezó la parte que más nos gusta:<br><em>salir a descubrir qué había del otro lado.</em></p></section>`;
-  if(i===4) html+=`<section class="interlude reveal"><p>Yo con la hernia que no podia ni caminar, vos con tu espalda y condicion física deplorable... \n\n<em>Ese día nos chupó todo un huevo y metimos 4 horas de tekking.</em></p></section>`;
+  if(i===4) html+=`<section class="interlude reveal"><p>Yo con la hernia que no podía ni caminar, vos con tu espalda y condición física deplorable... \n\n<em>Ese día nos chupó todo un huevo y metimos 4 horas de trekking.</em></p></section>`;
 });
 html+=`<section class="final reveal"><div class="final-inner"><div class="chapter-label">${esc(viaje.final.etiqueta)}</div><h2>${esc(viaje.final.titulo)}</h2><p class="bodycopy">${esc(viaje.final.texto)}</p><div class="signature">${esc(viaje.final.firma)}</div><div class="heart">♡</div></div></section>`;
 app.innerHTML=html;
