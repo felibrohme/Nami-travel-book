@@ -11,7 +11,12 @@
 <style>
 :root{--bg:#0a0b0b;--paper:#e9e4da;--muted:#aaa79e;--line:#2a2c2b;--accent:#d7c6a2;--max:1320px}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--paper);font-family:"DM Sans",Arial,sans-serif}body:after{content:"";position:fixed;inset:0;pointer-events:none;opacity:.035;background-image:radial-gradient(#fff .55px,transparent .55px);background-size:5px 5px;z-index:100}
-a{color:inherit;text-decoration:none}.hero{height:100svh;min-height:650px;position:relative;display:grid;place-items:center;overflow:hidden}.hero-bg{position:absolute;inset:-2%;background-position:center;background-size:cover;filter:saturate(.7);transform:scale(1.03)}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,.82));z-index:1}.hero-content{position:relative;z-index:2;width:min(1000px,90vw);text-align:center}.eyebrow,.chapter-label,.chapter-number{font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:var(--accent)}h1,h2,.display{font-family:"Playfair Display",Georgia,serif;font-weight:400}.hero h1{font-size:clamp(60px,11vw,150px);line-height:.88;margin:25px 0}.hero .subtitle{max-width:720px;margin:auto;color:#d8d3ca;font-size:clamp(17px,2vw,22px);line-height:1.6}.scroll{position:absolute;z-index:2;bottom:28px;left:50%;transform:translateX(-50%);font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:#b9b5ad}.scroll span{display:block;text-align:center;font-size:18px;margin-top:8px}.intro{max-width:900px;margin:auto;padding:145px 30px 130px}.intro .lead{font-family:"Playfair Display",Georgia,serif;font-size:clamp(30px,4.3vw,58px);line-height:1.15;margin:0 0 40px}.bodycopy{white-space:pre-line;color:#bdb9b1;font-size:18px;line-height:1.9;max-width:760px}.intro .bodycopy{margin:auto}.chapter{border-top:1px solid var(--line);padding:130px 30px 160px}.chapter-inner{max-width:var(--max);margin:auto}.chapter-head{text-align:center;max-width:850px;margin:0 auto 75px}.chapter-number{display:inline-block;margin-bottom:14px;color:#777}.chapter h2{font-size:clamp(48px,7vw,92px);line-height:.95;margin:0 0 30px}.chapter-head p{white-space:pre-line;color:var(--muted);font-size:18px;line-height:1.8;max-width:730px;margin:auto}.gallery{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;align-items:start}.item{overflow:hidden;background:#121414;cursor:pointer}.item img,.item video{display:block;width:100%;height:auto;max-height:800px;object-fit:cover}.item:nth-child(1){grid-column:span 7}.item:nth-child(2){grid-column:span 5;margin-top:70px}.item:nth-child(3){grid-column:span 5;margin-left:10%}.item:nth-child(4){grid-column:span 7;margin-top:50px}.item:nth-child(n+5){grid-column:span 4}.item:hover img{transform:scale(1.025)}.item img{transition:transform .7s ease}.cinematic .item:nth-child(1){grid-column:1/-1}.cinematic .item:nth-child(1) img{max-height:88vh;object-fit:cover}.cinematic .item:nth-child(2),.cinematic .item:nth-child(3){grid-column:span 6}.cinematic .item:nth-child(4){grid-column:span 8}.cinematic .item:nth-child(5){grid-column:span 4}.interlude{min-height:70vh;display:grid;place-items:center;padding:80px 30px;background:#101211;border-top:1px solid var(--line);border-bottom:1px solid var(--line);text-align:center}.interlude p{font-family:"Playfair Display",Georgia,serif;font-size:clamp(35px,5.5vw,78px);line-height:1.08;max-width:950px;margin:0}.video-block{margin-top:65px}.video-label{text-align:center;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#777;margin-bottom:20px}.video-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.video-grid .item{cursor:default}.final{min-height:100svh;display:grid;place-items:center;padding:100px 30px;text-align:center;position:relative;overflow:hidden}.final:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at center,rgba(255,255,255,.045),transparent 55%)}.final-inner{position:relative;max-width:900px}.final h2{font-size:clamp(62px,10vw,125px);line-height:.9;margin:20px 0 40px}.final .bodycopy{margin:auto;font-size:19px}.signature{font-family:"Playfair Display",Georgia,serif;white-space:pre-line;font-size:clamp(23px,3vw,34px);line-height:1.5;margin-top:65px}.heart{font-size:26px;color:var(--accent);margin-top:45px}.progress{position:fixed;top:0;left:0;height:2px;background:var(--accent);z-index:200;width:0}.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.94);z-index:300;display:none;place-items:center;padding:30px}.lightbox.open{display:grid}.lightbox img,.lightbox video{max-width:94vw;max-height:90vh}.close{position:fixed;right:25px;top:18px;font-size:35px;font-weight:300;color:#ddd;cursor:pointer}.reveal{opacity:0;transform:translateY(35px);transition:opacity .9s ease,transform .9s ease}.reveal.visible{opacity:1;transform:none}@media(max-width:800px){.chapter{padding:95px 16px 110px}.gallery,.video-grid{display:block}.item,.item:nth-child(n){display:block;margin:0 0 12px!important}.item img,.item video{max-height:none}.intro{padding:100px 22px}.hero h1{font-size:17vw}.chapter h2{font-size:15vw}.chapter-head p{font-size:16px}.bodycopy{font-size:16px}.interlude{min-height:60vh}}
+a{color:inherit;text-decoration:none}.hero{height:100svh;min-height:650px;position:relative;display:grid;place-items:center;overflow:hidden}.hero-bg{position:absolute;inset:-2%;background-position:center;background-size:cover;filter:saturate(.7);transform:scale(1.03)}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,.82));z-index:1}.hero-content{position:relative;z-index:2;width:min(1000px,90vw);text-align:center}.eyebrow,.chapter-label,.chapter-number{font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:var(--accent)}h1,h2,.display{font-family:"Playfair Display",Georgia,serif;font-weight:400}.hero h1{font-size:clamp(60px,11vw,150px);line-height:.88;margin:25px 0}.hero .subtitle{max-width:720px;margin:auto;color:#d8d3ca;font-size:clamp(17px,2vw,22px);line-height:1.6}.scroll{position:absolute;z-index:2;bottom:28px;left:50%;transform:translateX(-50%);font-size:10px;letter-spacing:.25em;text-transform:uppercase;color:#b9b5ad}.scroll span{display:block;text-align:center;font-size:18px;margin-top:8px}.intro{max-width:900px;margin:auto;padding:145px 30px 130px}.intro .lead{font-family:"Playfair Display",Georgia,serif;font-size:clamp(30px,4.3vw,58px);line-height:1.15;margin:0 0 40px}.bodycopy{white-space:pre-line;color:#bdb9b1;font-size:18px;line-height:1.9;max-width:760px}.intro .bodycopy{margin:auto}.chapter{border-top:1px solid var(--line);padding:130px 30px 160px}.chapter-inner{max-width:var(--max);margin:auto}.chapter-head{text-align:center;max-width:850px;margin:0 auto 75px}.chapter-number{display:inline-block;margin-bottom:14px;color:#777}.chapter h2{font-size:clamp(48px,7vw,92px);line-height:.95;margin:0 0 30px}.chapter-head p{white-space:pre-line;color:var(--muted);font-size:18px;line-height:1.8;max-width:730px;margin:auto}.gallery{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;align-items:start}.item{overflow:hidden;background:#121414;cursor:pointer}.item img,.item video{display:block;width:100%;height:auto;max-height:800px;object-fit:cover}.item:nth-child(1){grid-column:span 7}.item:nth-child(2){grid-column:span 5;margin-top:70px}.item:nth-child(3){grid-column:span 5;margin-left:10%}.item:nth-child(4){grid-column:span 7;margin-top:50px}.item:nth-child(n+5){grid-column:span 4}.item:hover img{transform:scale(1.025)}.item img{transition:transform .7s ease}.cinematic .item:nth-child(1){grid-column:1/-1}.cinematic .item:nth-child(1) img{max-height:88vh;object-fit:cover}.cinematic .item:nth-child(2),.cinematic .item:nth-child(3){grid-column:span 6}.cinematic .item:nth-child(4){grid-column:span 8}.cinematic .item:nth-child(5){grid-column:span 4}.interlude{min-height:70vh;display:grid;place-items:center;padding:80px 30px;background:#101211;border-top:1px solid var(--line);border-bottom:1px solid var(--line);text-align:center}.interlude p{font-family:"Playfair Display",Georgia,serif;font-size:clamp(35px,5.5vw,78px);line-height:1.08;max-width:950px;margin:0}.video-block{margin-top:65px}.video-label{text-align:center;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#777;margin-bottom:20px}.video-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.video-grid .item{cursor:default}.final{min-height:100svh;display:grid;place-items:center;padding:100px 30px;text-align:center;position:relative;overflow:hidden}.final:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at center,rgba(255,255,255,.045),transparent 55%)}.final-inner{position:relative;max-width:900px}.final h2{font-size:clamp(62px,10vw,125px);line-height:.9;margin:20px 0 40px}.final .bodycopy{margin:auto;font-size:19px}.signature{font-family:"Playfair Display",Georgia,serif;white-space:pre-line;font-size:clamp(23px,3vw,34px);line-height:1.5;margin-top:65px}.heart{font-size:26px;color:var(--accent);margin-top:45px}
+.progress{position:fixed;top:0;left:0;height:2px;background:var(--accent);z-index:200;width:0}
+.music-player{position:fixed;right:22px;bottom:22px;width:310px;background:rgba(18,20,20,.96);border:1px solid #343735;box-shadow:0 18px 50px rgba(0,0,0,.45);z-index:250;backdrop-filter:blur(12px);padding:12px;border-radius:14px}
+.music-top{display:flex;align-items:center;gap:10px;margin-bottom:10px}.music-icon{width:34px;height:34px;border:1px solid #4a4d4a;border-radius:50%;display:grid;place-items:center;color:var(--accent);font-size:14px;flex:0 0 auto}.music-meta{min-width:0;flex:1}.music-kicker{font:9px/1.2 Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#777}.music-title{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:4px}.music-actions{display:flex;gap:6px}.music-btn{border:1px solid #414441;background:#171918;color:#eee;border-radius:8px;width:34px;height:30px;cursor:pointer}.music-btn:hover{background:#232624}.music-frame{width:100%;aspect-ratio:16/9;border:0;border-radius:9px;background:#000;overflow:hidden}.music-placeholder{display:grid;place-items:center;text-align:center;min-height:174px;color:#777;font:11px/1.5 Arial,sans-serif;padding:20px}.chapter-music{display:flex;justify-content:center;margin:0 auto 38px}.chapter-music button{border:1px solid #555952;background:transparent;color:#ded9cf;border-radius:999px;padding:11px 18px;font:500 11px Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;transition:.25s}.chapter-music button:hover,.chapter-music button.active{background:#e9e4da;color:#0a0b0b;border-color:#e9e4da}.chapter-music .music-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--accent);margin-right:8px;vertical-align:middle}
+@media(max-width:800px){.music-player{right:10px;bottom:10px;width:calc(100vw - 20px);max-width:330px}.music-frame{aspect-ratio:16/9}.music-placeholder{min-height:160px}}
+.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.94);z-index:300;display:none;place-items:center;padding:30px}.lightbox.open{display:grid}.lightbox img,.lightbox video{max-width:94vw;max-height:90vh}.close{position:fixed;right:25px;top:18px;font-size:35px;font-weight:300;color:#ddd;cursor:pointer}.reveal{opacity:0;transform:translateY(35px);transition:opacity .9s ease,transform .9s ease}.reveal.visible{opacity:1;transform:none}@media(max-width:800px){.chapter{padding:95px 16px 110px}.gallery,.video-grid{display:block}.item,.item:nth-child(n){display:block;margin:0 0 12px!important}.item img,.item video{max-height:none}.intro{padding:100px 22px}.hero h1{font-size:17vw}.chapter h2{font-size:15vw}.chapter-head p{font-size:16px}.bodycopy{font-size:16px}.interlude{min-height:60vh}}
 </style>
 </head>
 <body>
@@ -27,6 +32,21 @@ a{color:inherit;text-decoration:none}.hero{height:100svh;min-height:650px;positi
 </header>
 
 <main id="app"></main>
+
+<div class="music-player" id="musicPlayer" aria-label="Reproductor de música">
+  <div class="music-top">
+    <div class="music-icon">♪</div>
+    <div class="music-meta">
+      <div class="music-kicker">Banda sonora del viaje</div>
+      <div class="music-title" id="musicTitle">Elegí una canción para comenzar</div>
+    </div>
+    <div class="music-actions">
+      <button class="music-btn" id="musicPlay" aria-label="Reproducir o pausar">▶</button>
+      <button class="music-btn" id="musicMute" aria-label="Silenciar">🔊</button>
+    </div>
+  </div>
+  <div id="youtubePlayer" class="music-frame"><div class="music-placeholder">La música aparece acá.<br>Elegí “Reproducir canción” en un capítulo.</div></div>
+</div>
 
 <div class="lightbox" id="lightbox" aria-hidden="true">
   <button class="close" id="closeLightbox" aria-label="Cerrar">×</button>
@@ -45,21 +65,39 @@ document.getElementById('heroTitle').textContent=viaje.portada.titulo;
 document.getElementById('heroSubtitle').textContent=viaje.portada.subtitulo;
 document.getElementById('heroBg').style.backgroundImage=`url("${path(viaje.portada.fondo)}")`;
 
+function getYoutubeId(value){
+  if(!value) return '';
+  const v=String(value).trim();
+  if(!v || v.startsWith('PEGAR_')) return '';
+  try{
+    const u=new URL(v);
+    const fromQuery=u.searchParams.get('v');
+    if(fromQuery) return fromQuery;
+    const parts=u.pathname.split('/').filter(Boolean);
+    if(parts.length) return parts[parts.length-1];
+  }catch(e){}
+  return v;
+}
+
 function item(file, video=false){
-  if(video) return `<div class="item video-item"><video src="${path(file)}" controls playsinline preload="metadata"></video></div>`;
+  if(video) return `<div class="item video-item"><video class="travel-video" src="${path(file)}" controls playsinline preload="metadata"></video></div>`;
   return `<div class="item photo-item" data-src="${path(file)}"><img src="${path(file)}" loading="lazy" alt="Recuerdo del viaje"></div>`;
 }
 function chapter(c){
   const pics=(c.fotos||[]).map(f=>item(f,false)).join('');
   const vids=(c.videos||[]).map(f=>item(f,true)).join('');
-  return `<section class="chapter reveal ${c.layout||''}" id="${esc(c.id)}"><div class="chapter-inner"><div class="chapter-head"><div class="chapter-number">${esc(c.numero)}</div><div class="chapter-label">${esc(c.etiqueta)}</div><h2>${esc(c.titulo)}</h2><p>${esc(c.texto)}</p></div><div class="gallery">${pics}</div>${vids?`<div class="video-block"><div class="video-label">Momentos en movimiento</div><div class="video-grid">${vids}</div></div>`:''}</div></section>`;
+  const musicId=getYoutubeId(c.youtubeId);
+  const musicButton=musicId ? `<div class="chapter-music"><button class="chapter-music-btn" data-youtube-id="${esc(musicId)}" data-song="${esc(c.cancion||c.titulo)}"><span class="music-dot"></span>Reproducir canción</button></div>` : `<div class="chapter-music"><button class="chapter-music-btn" disabled title="Agregá el ID de YouTube en data.js" style="opacity:.45;cursor:not-allowed"><span class="music-dot"></span>Agregar canción en data.js</button></div>`;
+  return `<section class="chapter reveal ${c.layout||''}" id="${esc(c.id)}"><div class="chapter-inner"><div class="chapter-head"><div class="chapter-number">${esc(c.numero)}</div><div class="chapter-label">${esc(c.etiqueta)}</div><h2>${esc(c.titulo)}</h2><p>${esc(c.texto)}</p></div>${musicButton}<div class="gallery">${pics}</div>${vids?`<div class="video-block"><div class="video-label">Momentos en movimiento</div><div class="video-grid">${vids}</div></div>`:''}</div></section>`;
 }
 
-let html=`<section class="intro reveal"><p class="lead">${esc(viaje.introduccion.titulo)}</p><p class="bodycopy">${esc(viaje.introduccion.texto)}</p></section>`;
+const introMusicId=viaje.musicaIntroduccion ? getYoutubeId(viaje.musicaIntroduccion.youtubeId) : '';
+const introMusic=introMusicId ? `<div class="chapter-music"><button class="chapter-music-btn" data-youtube-id="${esc(introMusicId)}" data-song="${esc(viaje.musicaIntroduccion.titulo)}"><span class="music-dot"></span>Reproducir canción</button></div>` : '';
+let html=`<section class="intro reveal"><p class="lead">${esc(viaje.introduccion.titulo)}</p><p class="bodycopy">${esc(viaje.introduccion.texto)}</p>${introMusic}</section>`;
 viaje.capitulos.forEach((c,i)=>{
   html+=chapter(c);
   if(i===1) html+=`<section class="interlude reveal"><p>Y después empezó la parte que más nos gusta:<br><em>salir a descubrir qué había del otro lado.</em></p></section>`;
-  if(i===4) html+=`<section class="interlude reveal"><p>Yo con la hernia que no podía ni caminar, vos con tu espalda y condición física deplorable... \n\n<em>Ese día nos chupó todo un huevo y metimos 4 horas de trekking.</em></p></section>`;
+  if(i===4) html+=`<section class="interlude reveal"><p>Yo con la hernia que no podia ni caminar, vos con tu espalda y condicion física deplorable... \n\n<em>Ese día nos chupó todo un huevo y metimos 4 horas de trekking.</em></p></section>`;
 });
 html+=`<section class="final reveal"><div class="final-inner"><div class="chapter-label">${esc(viaje.final.etiqueta)}</div><h2>${esc(viaje.final.titulo)}</h2><p class="bodycopy">${esc(viaje.final.texto)}</p><div class="signature">${esc(viaje.final.firma)}</div><div class="heart">♡</div></div></section>`;
 app.innerHTML=html;
@@ -72,6 +110,90 @@ document.querySelectorAll('.photo-item').forEach(el=>el.addEventListener('click'
 function close(){lightbox.classList.remove('open');lightbox.setAttribute('aria-hidden','true');content.innerHTML=''}
 document.getElementById('closeLightbox').addEventListener('click',close);lightbox.addEventListener('click',e=>{if(e.target===lightbox)close()});document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
 window.addEventListener('scroll',()=>{const h=document.documentElement.scrollHeight-innerHeight;document.getElementById('progress').style.width=(scrollY/h*100)+'%'});
+
+
+// ============================================================
+// REPRODUCTOR DE MÚSICA POR CAPÍTULO
+// ============================================================
+let ytPlayer=null;
+let currentSongId='';
+let previousMusicVolume=100;
+let musicWasPlayingBeforeVideo=false;
+let youtubeReady=false;
+
+function onYouTubeIframeAPIReady(){
+  ytPlayer=new YT.Player('youtubePlayer',{
+    width:'100%',height:'100%',videoId:'',
+    playerVars:{autoplay:0,controls:1,rel:0,modestbranding:1,playsinline:1},
+    events:{onReady:()=>{youtubeReady=true; updateMusicButtons();},onStateChange:onMusicStateChange}
+  });
+}
+window.onYouTubeIframeAPIReady=onYouTubeIframeAPIReady;
+const ytScript=document.createElement('script');
+ytScript.src='https://www.youtube.com/iframe_api';
+document.head.appendChild(ytScript);
+
+function updateMusicButtons(){
+  document.querySelectorAll('.chapter-music-btn').forEach(btn=>{
+    btn.classList.toggle('active', btn.dataset.youtubeId===currentSongId && ytPlayer && ytPlayer.getPlayerState && ytPlayer.getPlayerState()===YT.PlayerState.PLAYING);
+  });
+  const play=document.getElementById('musicPlay');
+  if(play && ytPlayer && ytPlayer.getPlayerState){
+    play.textContent=ytPlayer.getPlayerState()===YT.PlayerState.PLAYING?'❚❚':'▶';
+  }
+}
+function playChapterSong(id,title){
+  if(!youtubeReady || !ytPlayer) return;
+  currentSongId=id;
+  document.getElementById('musicTitle').textContent=title;
+  ytPlayer.loadVideoById(id);
+  ytPlayer.setVolume(100);
+  document.getElementById('musicMute').textContent='🔊';
+  updateMusicButtons();
+}
+function onMusicStateChange(e){
+  updateMusicButtons();
+  if(e.data===YT.PlayerState.PLAYING){
+    document.getElementById('musicTitle').textContent=document.getElementById('musicTitle').textContent || 'Música del viaje';
+  }
+}
+document.addEventListener('click',e=>{
+  const btn=e.target.closest('.chapter-music-btn');
+  if(!btn || btn.disabled) return;
+  playChapterSong(btn.dataset.youtubeId,btn.dataset.song);
+});
+document.getElementById('musicPlay').addEventListener('click',()=>{
+  if(!ytPlayer || !currentSongId) return;
+  const state=ytPlayer.getPlayerState();
+  if(state===YT.PlayerState.PLAYING) ytPlayer.pauseVideo(); else ytPlayer.playVideo();
+});
+document.getElementById('musicMute').addEventListener('click',()=>{
+  if(!ytPlayer) return;
+  if(ytPlayer.isMuted()){ytPlayer.unMute();document.getElementById('musicMute').textContent='🔊';}
+  else {ytPlayer.mute();document.getElementById('musicMute').textContent='🔇';}
+});
+
+// Cuando un video del viaje se reproduce, la música baja a fondo.
+// Al pausarlo/terminarlo, recupera el volumen anterior.
+function lowerMusicForVideo(){
+  if(!ytPlayer || !currentSongId || !ytPlayer.getPlayerState) return;
+  musicWasPlayingBeforeVideo=ytPlayer.getPlayerState()===YT.PlayerState.PLAYING;
+  if(musicWasPlayingBeforeVideo){
+    previousMusicVolume=ytPlayer.isMuted()?0:ytPlayer.getVolume();
+    ytPlayer.setVolume(Math.max(8, Math.round(previousMusicVolume*0.16)));
+  }
+}
+function restoreMusicAfterVideo(){
+  if(!ytPlayer || !currentSongId || !ytPlayer.getPlayerState) return;
+  if(musicWasPlayingBeforeVideo){ytPlayer.setVolume(previousMusicVolume);}
+  musicWasPlayingBeforeVideo=false;
+}
+document.querySelectorAll('.travel-video').forEach(video=>{
+  video.addEventListener('play',lowerMusicForVideo);
+  video.addEventListener('pause',restoreMusicAfterVideo);
+  video.addEventListener('ended',restoreMusicAfterVideo);
+});
+
 </script>
 </body>
 </html>
