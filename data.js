@@ -18,9 +18,18 @@ const viaje = {
     texto: `Este es un regalo para vos, Nami. Quería dejar guardado de una forma un poquito distinta el recuerdo de lo que fue nuestro viaje, de todo lo que vivimos y, sobre todo, de lo bien que la pasamos juntos.\n\nTodo esto empezó de la nada misma. Un año entero hablando solamente por mensajes, con vos en Chile y yo en Argentina. No teníamos todo resuelto, ni un plan perfecto, ni un peso de sobra. Pero cuando nos organizamos, trabajamos y nos pusimos de acuerdo, logramos hacer realidad algo que al principio parecía lejísimo.\n\nY terminó siendo uno de los viajes más increíbles que me tocó vivir.`
   },
 
+  // PEGÁ EL LINK DE YOUTUBE MUSIC/YOUTUBE O EL ID DE LA CANCIÓN.
+  // Ejemplo: "https://music.youtube.com/watch?v=ABC123" o "ABC123"
+  musicaIntroduccion: {
+    titulo: "Don't go insane",
+    youtubeId: "https://music.youtube.com/watch?v=Z7SNttUR9n0&list=PL6e5yQa29suWQwXeojwdcEkKetzsDmyZY"
+  },
+
   capitulos: [
     {
       id: "vistas",
+      youtubeId: "https://music.youtube.com/playlist?list=PL6e5yQa29suWQwXeojwdcEkKetzsDmyZY",
+      cancion: "SAINT",
       numero: "01",
       etiqueta: "El sur",
       titulo: "Los paisajes del camino",
@@ -50,6 +59,8 @@ const viaje = {
     },
     {
       id: "llegada",
+      youtubeId: "https://music.youtube.com/watch?v=4704jzvRVhs&list=PL6e5yQa29suWQwXeojwdcEkKetzsDmyZY",
+      cancion: "LIMBO",
       numero: "02",
       etiqueta: "Por fin...",
       titulo: "Nos encontramos",
@@ -65,6 +76,8 @@ const viaje = {
     },
     {
       id: "ruta",
+      youtubeId: "https://music.youtube.com/watch?v=1kyTd8kEgp0&list=PL6e5yQa29suWQwXeojwdcEkKetzsDmyZY",
+      cancion: "NERVES",
       numero: "03",
       etiqueta: "Viaje, music y mates...",
       titulo: "La ruta",
@@ -80,6 +93,8 @@ const viaje = {
     },
     {
       id: "playa",
+      youtubeId: "https://music.youtube.com/watch?v=GZXPGv0kOAQ",
+      cancion: "Ponyo",
       numero: "04",
       etiqueta: "Lo mejor del mar",
       titulo: "Playa, mates y... ¿Ponyo?",
@@ -96,6 +111,8 @@ const viaje = {
     },
     {
       id: "trekking",
+      youtubeId: "https://music.youtube.com/watch?v=Jpz6LarMR-w&list=PL6e5yQa29suWQwXeojwdcEkKetzsDmyZY",
+      cancion: "Somewhere else",
       numero: "05",
       etiqueta: "Mi parte favorita",
       titulo: "Trekking",
@@ -117,6 +134,8 @@ const viaje = {
     },
     {
       id: "lemuy",
+      youtubeId: "https://music.youtube.com/watch?v=pnRFEq4tQlY&list=PL6e5yQa29suWQwXeojwdcEkKetzsDmyZY",
+      cancion: "DO OR DIE",
       numero: "06",
       etiqueta: "La isla",
       titulo: "Lemuy",
@@ -137,6 +156,8 @@ const viaje = {
     },
     {
       id: "amigos",
+      youtubeId: "https://music.youtube.com/watch?v=RxylBz1OLdc&list=PL6e5yQa29suWQwXeojwdcEkKetzsDmyZY",
+      cancion: "Scaredy cat",
       numero: "07",
       etiqueta: "Las criaturas del viaje",
       titulo: "Nuestros acompañantes",
@@ -153,6 +174,8 @@ const viaje = {
     },
     {
       id: "graciosos",
+      youtubeId: "https://music.youtube.com/watch?v=JgnbLjeksjMY",
+      cancion: "La biblia",
       numero: "08",
       etiqueta: "Porque no todo podía ser serio",
       titulo: "Mrs funny",
@@ -170,9 +193,11 @@ const viaje = {
   ],
 
   final: {
+    youtubeId: "https://music.youtube.com/watch?v=3m6WCQQWG0I&list=PL6e5yQa29suWQwXeojwdcEkKetzsDmyZY",
+    cancion: "Downtown baby",
     etiqueta: "Gracias por este viaje",
     titulo: "La historia sigue",
     texto: `Gracias por ser la persona que sos. Gracias por acompañarme, por hacerme reír, por darme tanta alegría y por haber compartido conmigo todos estos momentos.\n\nNo sabemos exactamente en qué va a terminar esta historia. Y quizás eso sea justamente lo lindo.\n\nLo único que sé es que todavía quedan páginas por escribir, lugares por conocer, canciones por escuchar, mates por cebar y un montón de próximos momentos por vivir juntos.\n\nEste viaje termina acá. La historia, no.`,
-    firma: "Feliz cumpleaños, hermosa.\n\nAtentamente:\nTu Gymbro \"Daddy\""
+    firma: "Feliz cumpleaños, hermosa.\n\nAtentamente:\nTu Gymbro *kiss"
   }
 };
