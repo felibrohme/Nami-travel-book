@@ -198,6 +198,6 @@ const viaje = {
     etiqueta: "Gracias por este viaje",
     titulo: "La historia sigue",
     texto: `Gracias por ser la persona que sos. Gracias por acompañarme, por hacerme reír, por darme tanta alegría y por haber compartido conmigo todos estos momentos.\n\nNo sabemos exactamente en qué va a terminar esta historia. Y quizás eso sea justamente lo lindo.\n\nLo único que sé es que todavía quedan páginas por escribir, lugares por conocer, canciones por escuchar, mates por cebar y un montón de próximos momentos por vivir juntos.\n\nEste viaje termina acá. La historia, no.`,
-    firma: "Feliz cumpleaños, hermosa.\n\nAtentamente:\nTu Gymbro *kiss"
+    firma: "Feliz cumpleaños, hermosa.\n\nAtentamente:\nTu Gymbro \"Daddy\""
   }
 };
